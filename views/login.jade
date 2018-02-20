@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    form(action='/users/login',method='post')
+        .form-group
+            label Username
+            input.form-control(type='text',name='username',placeholder='Enter Your username')
+        .form-group
+            label Password
+            input.form-control(type='password',name='password',placeholder='Enter Your password')
+        input.btn.btn-primary(type='submit')
+
+

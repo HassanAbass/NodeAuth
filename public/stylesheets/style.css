@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  margin-top: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.active {
+  background: #DDD;
+}
+.success,.error{
+  list-style-type: none;
+  background: #c7ffc7;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #360675;
+
+}
+.error{
+  background: #a41b1752;
+}
+.error li {
+  color: #360675;
+}
